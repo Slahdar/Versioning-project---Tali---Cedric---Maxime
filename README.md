@@ -1,13 +1,5 @@
 # Versioning-project---Tali---Cedric---Maxime
 
-Premier projet du cours de versioning en SSH
-
-- Organiser les branchs (et présenter cette organisation dans le readme)
-- Définir le projet (et répartir les tâches)
-- Définir le format des commit (dans le readme)
-  - gitflow
-  - Dire pourquoi le système choisis est adapté
-
 # Les commandes git
 
 - git log --oneline --decorate --graph --all
