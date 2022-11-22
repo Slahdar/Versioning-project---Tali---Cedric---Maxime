@@ -2,7 +2,6 @@
 
 # Les commandes git
 
-- git log --oneline --decorate --graph --all
 - git add \* (ou <filename>)
 - git commit -m "<message>"
 - git push
@@ -15,6 +14,10 @@
 - git rm < filename > : supprime un fichier (effectif après le commit)
 - git rm --cached < filename > : supprime les indexations d'un fichier
 - git log : permet de visualiser l'historique des commits
+
+## Gestion du git
+
+- git rebase < branch > : va chercher l'ancêtre commun entre la branch spécifié et la HEAD et venir appliquer tous les commits de HEAD (à partir de ce point) à branch
 
 ## Les tags
 
@@ -29,6 +32,12 @@
 - git checkout -b < branch > / git switch -c < branch >: créer une nouvelle branch et switch dessus
 - git merge (utiliser sur la branch sur laquelle on souhaite ramener le merge)
 - git branch -d (-D pour forcer delete) < branch > : supprime branch
+
+## Infos du git
+
+- git ls-remote : liste des références (distantes), une référence désigne des éléments du dépôt distant (branch, tag, évènements...)
+- git log --oneline --decorate --graph --all
+- git fetch < remote > (ou < remote > < branch >) : Fetche toutes les branches du dépôt. Télécharge également tous les commits et fichiers nécessaires depuis l'autre dépôt.
 
 # Infos complémentaires
 
