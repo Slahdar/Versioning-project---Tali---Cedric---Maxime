@@ -185,6 +185,51 @@
             </div>
         </section>
         <!-- end section -->
+         <!-- start section -->
+         <section class="overflow-visible position-relative z-index-1">
+            <div class="container">
+                <div class="row justify-content-center ">
+                    <div class="col-12 col-lg-5 col-sm-9 d-flex flex-column text-center text-lg-start md-margin-6-rem-bottom wow animate__fadeIn">
+                        <div class="margin-20px-bottom sm-margin-15px-bottom"><span class="alt-font text-medium text-gradient-sky-blue-pink text-uppercase font-weight-500">Our expertise</span></div>
+                        <h5 class="alt-font text-extra-dark-gray font-weight-600 w-95 margin-20px-bottom md-margin-30px-bottom lg-w-100">We design brand, digital experience that engage the right customers</h5>
+                        <div class="mt-auto mx-auto mx-lg-0">
+                            <a href="index.html" class="btn btn-fancy btn-small btn-transparent-light-gray">Discover litho</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 offset-lg-1">
+                        <div class="row row-cols-1 row-cols-sm-2">
+                            <!-- start pie chart item -->
+                            <div class="col text-center text-lg-start xs-margin-45px-bottom wow animate__fadeIn" data-wow-delay="0.2s">
+                                <div class="chart-percent d-inline-block margin-40px-bottom xs-margin-20px-bottom">
+                                    <span class="pie-chart-style-02" data-line-width="8" data-percent="92" data-track-color="#f5f5f5" data-start-color="#f77993" data-end-color="#5d6ff9">
+                                        <span class="percent alt-font font-weight-500 title-extra-small letter-spacing-minus-1px text-extra-dark-gray"></span>
+                                    </span>
+                                </div>
+                                <div class="last-paragraph-no-margin wow animate__fadeIn" data-wow-duration="0.2">
+                                    <span class="alt-font font-weight-500 margin-5px-bottom d-block text-extra-dark-gray">Innovative solutions</span>
+                                    <p class="d-inline-block w-85 lg-w-100 md-w-75 sm-w-95 xs-w-75">Lorem ipsum is simply dummy text of the printing and type.</p>
+                                </div>
+                            </div>
+                            <!-- end pie chart item -->
+                            <!-- start pie chart item -->
+                            <div class="col text-center text-lg-start wow animate__fadeIn" data-wow-delay="0.4s">
+                                <div class="chart-percent d-inline-block margin-40px-bottom xs-margin-20px-bottom">
+                                    <span class="pie-chart-style-02" data-line-width="8" data-percent="90" data-track-color="#f5f5f5" data-start-color="#f77993" data-end-color="#5d6ff9">
+                                        <span class="percent alt-font font-weight-500 title-extra-small letter-spacing-minus-1px text-extra-dark-gray"></span>
+                                    </span>
+                                </div>
+                                <div class="last-paragraph-no-margin">
+                                    <span class="alt-font font-weight-500 margin-5px-bottom d-block text-extra-dark-gray">Marketing strategy</span>
+                                    <p class="d-inline-block w-85 lg-w-100 md-w-75 sm-w-95 xs-w-75">Lorem ipsum is simply dummy text of the printing and type.</p>
+                                </div>
+                            </div>
+                            <!-- end pie chart item -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end section -->
         <!-- start section -->
         <section class="padding-40px-top md-no-padding-top">
             <div class="container">
