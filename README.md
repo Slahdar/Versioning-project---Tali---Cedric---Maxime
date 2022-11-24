@@ -1,5 +1,7 @@
 # Versioning-project---Tali---Cedric---Maxime
 
+# Setup du git
+
 # Les commandes git
 
 - git add \* (ou <filename>)
