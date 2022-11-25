@@ -185,7 +185,7 @@
             </div>
         </section>
         <!-- end section -->
-         <!-- start section -->
+         <!-- start section RAJOUT-->
          <section class="overflow-visible position-relative z-index-1">
             <div class="container">
                 <div class="row justify-content-center ">
