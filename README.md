@@ -14,11 +14,13 @@
 
 ## Procédure de développement d'une feature
 
+- git pull sur main (pour mettre à jour sa branche main locale)
+
 - création d'une nouvelle branche en dupliquant la main (donc Head doit être sur main): git checkout -b nom branch
 
 - développement de feature (sur la branche nouvellement créée)
 
-- git pull main (pour mettre à jour sa branche main locale)
+- git pull sur main (pour mettre à jour sa branche main locale)
 
 - merge la main sur la branche feature pour résoudre les conflits (Head doit être sur feature branch): git merge main
 
