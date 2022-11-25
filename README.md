@@ -14,13 +14,17 @@
 
 ## Procédure de développement d'une feature
 
-Procédure développement nouvelle feature
--> création d'une nouvelle branche en dupliquant la main (donc Head doit être sur main): git checkout -b nom branch
--> développement de feature (sur la branche nouvellement créée)
--> merge la main sur la branche feature pour résoudre les conflits (Head doit être sur feature branch): git merge main
--> merge la branche feature (après conflit) sur la main (head sur main) : git merge
+- création d'une nouvelle branche en dupliquant la main (donc Head doit être sur main): git checkout -b nom branch
 
--> Mettre à jour le tag de versions (majeur, mineur ou patch) : git tag -a -m "annotation" [commit]
+- développement de feature (sur la branche nouvellement créée)
+
+- git pull main (pour mettre à jour sa branche main locale)
+
+- merge la main sur la branche feature pour résoudre les conflits (Head doit être sur feature branch): git merge main
+
+- merge la branche feature (après conflit) sur la main (head sur main) : git merge
+
+- Mettre à jour le tag de versions (majeur, mineur ou patch) : git tag -a -m "annotation" [commit]
 
 Notes : on conserve la branche ayant servi à développer la feature pour des raisons scolaire, cela peut être cependant utile dans le cadre d'un projet, par exemple si l'on souhaite retirer une feature plus tard dans le projet.
 
@@ -29,9 +33,10 @@ Notes : on conserve la branche ayant servi à développer la feature pour des ra
 Format commit message :
 
 type : TITRE COMMIT
+
 message du commit
 
-en commande : git commit -m "type : TITRE COMMIT" -m "message du commit"
+En commande : git commit -m "type : TITRE COMMIT" -m "message du commit"
 
 Le détail du format a respecter est dans .git-template.txt
 
