@@ -410,8 +410,34 @@
             </div>
         </section>
         <!-- end section -->
+          <!-- start section Rajout Tali-->
+          <section class="big-section">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-12 text-center margin-six-bottom">
+                        <h6 class="alt-font text-extra-dark-gray font-weight-500">FORMULAIRE DE CONTACT</h6>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-12 col-xl-5 col-lg-10 col-md-10">
+                        <form action="email-templates/contact-form.php" method="post">
+                            <input class="large-input margin-25px-bottom border-radius-0px required" type="text" name="name" placeholder="Your name" />
+                            <input class="large-input margin-25px-bottom border-radius-0px required" type="email" name="email" placeholder="Your email address" />
+                            <input class="large-input margin-25px-bottom border-radius-0px" type="tel" name="phone" placeholder="Mobile number" />
+                            <textarea class="large-input margin-35px-bottom border-radius-0px" name="comment" rows="5" placeholder="How can we help you?"></textarea>
+                            <div class="g-recaptcha margin-35px-bottom" data-sitekey="6LfJf98bAAAAAGC26hfKyd2Ptddbs9xYm4mCNeLx"></div>
+                            <input type="hidden" name="redirect" value="">
+                            <button class="btn btn-small btn-fancy btn-gradient-fast-blue-purple mb-0 submit" type="submit">send message</button>
+                            <div class="form-results d-none"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end section -->
+
         <!-- start section -->
-        <section class="cover-background sm-overflow-visible wow animate__fadeIn" style="background-image: url('images/images/home-startup-footer-top-bg.jpg');">
+        <section class="bg-light-gray cover-background sm-overflow-visible wow animate__fadeIn" style="background-image: url('images/images/home-startup-footer-top-bg.jpg');">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-12 col-lg-7 col-md-10 text-center">

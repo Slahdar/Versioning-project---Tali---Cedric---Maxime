@@ -15,7 +15,9 @@
                         <div class="col-12 col-md-6 col-sm-12 sm-margin-40px-bottom xs-margin-25px-bottom">
                             <span class="alt-font font-weight-500 d-block text-extra-dark-gray text-medium margin-20px-bottom xs-margin-10px-bottom">Company</span>
                             <ul>
-                                <li><a href="page1.php">Page 1</a></li>
+                           <li> <a href="ajax-passgen.php">PassWord Generator</a></li>
+
+                                <li><a href="index.php">Page 1</a></li>
                                 <li><a href="page2.php">Page 2</a></li>
                                 <li><a href="page3.php">Page 3</a></li>
                              </ul>
