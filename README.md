@@ -74,7 +74,7 @@ Grâce à Heroku, nous avons pu déployer notre projet qui contient du PHP sans 
 ## Trello
 Pour avoir une meilleur visualisation des tâches et de la répartition de celles-ci, nous avons utilisé un trello. 
 Nous avons utilisé Trello directement intégré à GitHub. 
-Trello est l'outil visuel qui permet à notre équipe de gérer notre projet ou de flux de travail, ou encore de suivre les tâches.
+Trello est l'outil visuel qui permet à notre équipe de gérer notre projet, nos flux de travail, ou encore de suivre les tâches.
 
 # WorkFlow
 
