@@ -21,43 +21,44 @@
     <link rel="stylesheet" href="css/mystyle.css">
     <script src="http://code.jquery.com/jquery-latest.js"></script>
 </head>
-<body data-mobile-nav-style="classic">
-<!-- start header -->
-<header>
-    <!-- start navigation -->
-    <nav class="navbar top-space navbar-expand-lg navbar-boxed navbar-dark bg-black header-dark fixed-top header-reverse-scroll">
-        <div class="container-fluid nav-header-container">
-            <div class="col-auto col-sm-6 col-lg-2 me-auto ps-lg-0">
-                <a class="navbar-brand" href="index.php">
-                    <img src="images/images/logo/logo-green-dark.png" data-at2x="images/images/logo/logo-green-dark.png" class="default-logo" alt="">
-                    
-                </a>
-            </div>
-            <div class="col-auto menu-order px-lg-0">
-                <button class="navbar-toggler float-end" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-line"></span>
-                    <span class="navbar-toggler-line"></span>
-                    <span class="navbar-toggler-line"></span>
-                    <span class="navbar-toggler-line"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav alt-font">
-                        <li class="nav-item dropdown megamenu">
-                            <a href="ajax-passgen.php" class="nav-link">PassWord Generator</a>
-                            <i class="fa fa-angle-down dropdown-toggle" data-bs-toggle="dropdown" aria-hidden="true"></i>
-                        </li>
-                        <li class="nav-item dropdown simple-dropdown">
-                            <a href="page2.php" class="nav-link">Page 2</a>
-                            <i class="fa fa-angle-down dropdown-toggle" data-bs-toggle="dropdown" aria-hidden="true"></i>
-                        </li>
-                        <li class="nav-item dropdown simple-dropdown">
-                            <a href="page3.php" class="nav-link">page 3</a>
-                            <i class="fa fa-angle-down dropdown-toggle" data-bs-toggle="dropdown" aria-hidden="true"></i>
-                        </li>
 
-                    </ul>
+<body data-mobile-nav-style="classic">
+    <!-- start header -->
+    <header>
+        <!-- start navigation -->
+        <nav class="navbar top-space navbar-expand-lg navbar-boxed navbar-dark bg-black header-dark fixed-top header-reverse-scroll">
+            <div class="container-fluid nav-header-container">
+                <div class="col-auto col-sm-6 col-lg-2 me-auto ps-lg-0">
+                    <a class="navbar-brand" href="index.php">
+                        <img src="images/images/logo/logo-green-dark.png" data-at2x="images/images/logo/logo-green-dark.png" class="default-logo" alt="">
+
+                    </a>
+                </div>
+                <div class="col-auto menu-order px-lg-0">
+                    <button class="navbar-toggler float-end" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-line"></span>
+                        <span class="navbar-toggler-line"></span>
+                        <span class="navbar-toggler-line"></span>
+                        <span class="navbar-toggler-line"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav alt-font">
+                            <li class="nav-item dropdown megamenu">
+                                <a href="ajax-passgen.php" class="nav-link">PassWord Generator</a>
+                                <i class="fa fa-angle-down dropdown-toggle" data-bs-toggle="dropdown" aria-hidden="true"></i>
+                            </li>
+                            <li class="nav-item dropdown simple-dropdown">
+                                <a href="page2.php" class="nav-link">Page 2</a>
+                                <i class="fa fa-angle-down dropdown-toggle" data-bs-toggle="dropdown" aria-hidden="true"></i>
+                            </li>
+                            <li class="nav-item dropdown simple-dropdown">
+                                <a href="NosSolutions.php" class="nav-link">page 3</a>
+                                <i class="fa fa-angle-down dropdown-toggle" data-bs-toggle="dropdown" aria-hidden="true"></i>
+                            </li>
+
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </div>
-    </nav>
-</header>
+        </nav>
+    </header>
