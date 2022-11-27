@@ -18,6 +18,7 @@
     <link rel="stylesheet" type="text/css" href="revolution/css/settings.css">
     <link rel="stylesheet" type="text/css" href="revolution/css/layers.css">
     <link rel="stylesheet" type="text/css" href="revolution/css/navigation.css">
+    <link rel="stylesheet" href="css/mystyle.css">
 </head>
 <body data-mobile-nav-style="classic">
 <!-- start header -->

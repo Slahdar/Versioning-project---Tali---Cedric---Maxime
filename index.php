@@ -5,13 +5,13 @@
     <?php include 'header.php';?>
     
        <!--start hero section -->
-<section class="p-0 parallax mobile-height" data-parallax-background-ratio="0.5" style="background-image: url('images/images/imageaccueil.jpg');">
+<section class="p-0 parallax mobile-height" data-parallax-background-ratio="0.5" style="background-image: url('images/images/imageaccueil.png');">
             <div class="container position-relative">
                 <div class="row">
                     <div class="col-12 col-lg-5 col-md-6 col-sm-8 full-screen md-h-650px sm-h-450px d-flex flex-column justify-content-center wow animate__fadeIn">
                         <span class="text-extra-medium alt-font font-weight-500 text-uppercase text-olivine-green d-block margin-35px-bottom xs-margin-15px-bottom">Page 1</span>
                         <h1 class="alt-font font-weight-700 text-olivine-green text-uppercase margin-2-half-rem-bottom letter-spacing-minus-2px sm-margin-20px-bottom xs-margin-15px-bottom">La data</h1>
-                        <p class="text-extra-medium line-height-30px w-75 margin-3-rem-bottom lg-w-90 md-w-100 xs-margin-15px-bottom text-black">Maîtrise la data analyse grâce à nos formations intensives, acquiers des compétences en Python, SQL, et DataViz et crée ton réseau dans la data. </p>
+                        <p class=" text-extra-medium line-height-30px w-75 margin-3-rem-bottom lg-w-90 md-w-100 xs-margin-15px-bottom  p-accueil ">Maîtrise la data analyse grâce à nos formations intensives, acquiers des compétences en Python, SQL, et DataViz et crée ton réseau dans la data. </p>
                         <a href="#call-request" class="btn btn-fancy btn-large btn-olivine-green section-link align-self-start">Commencez maintenant</a>
                     </div>
                 </div>
