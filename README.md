@@ -26,7 +26,8 @@
 
 - merge la branche feature (après conflit) sur la main (head sur main) : git merge
 
-- Mettre à jour le tag de versions (majeur, mineur ou patch) : git tag -a -m "annotation" [commit]
+- Mettre à jour le tag de versions (majeur, mineur ou patch) : git tag -a < tag_name > -m "< message du tag >"
+  - Si le tag ne s'est pas push : git push origin < tag_name >
 
 Notes : on conserve la branche ayant servi à développer la feature pour des raisons scolaire, cela peut être cependant utile dans le cadre d'un projet, par exemple si l'on souhaite retirer une feature plus tard dans le projet.
 
@@ -73,7 +74,7 @@ Le détail du format a respecter est dans .git-template.txt
 
 ### Les tags
 
-- git git tag -a < tagname > -m "< message du tag >" : permet de créer un tag annoté
+- git tag -a < tagname > -m "< message du tag >" : permet de créer un tag annoté
 - git push origin < tagname > : push la modification du tag (--tags pour tous les push)
 - git tag -d < tagname > ou git push origin --delete < tagname > (pour push directement et delete en même temps)
 
