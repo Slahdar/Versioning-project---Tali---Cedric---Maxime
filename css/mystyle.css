@@ -2,4 +2,34 @@
     color: white;
     font-weight: bolder;
 }
+.pass-title{
+    margin-top: 95px;
+    text-align: center;
+    color: black;
+}
+.pass-gen{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+#pass-gen > a{
+    color: white;
+    padding: 6px;
+    font-size: 25px;
+    background-color: green;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#pass-container {
+    margin-top: 55px;
+    text-align: center;
+    font-size: 35px;
+    color: black;
+}
 

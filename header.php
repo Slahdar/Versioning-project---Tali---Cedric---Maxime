@@ -19,6 +19,7 @@
     <link rel="stylesheet" type="text/css" href="revolution/css/layers.css">
     <link rel="stylesheet" type="text/css" href="revolution/css/navigation.css">
     <link rel="stylesheet" href="css/mystyle.css">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
 </head>
 <body data-mobile-nav-style="classic">
 <!-- start header -->
@@ -27,7 +28,7 @@
     <nav class="navbar top-space navbar-expand-lg navbar-boxed navbar-dark bg-black header-dark fixed-top header-reverse-scroll">
         <div class="container-fluid nav-header-container">
             <div class="col-auto col-sm-6 col-lg-2 me-auto ps-lg-0">
-                <a class="navbar-brand" href="page1.php">
+                <a class="navbar-brand" href="index.php.php">
                     <img src="images/images/logo/logo-green-dark.png" data-at2x="images/images/logo/logo-green-dark.png" class="default-logo" alt="">
                     
                 </a>
@@ -42,7 +43,7 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav alt-font">
                         <li class="nav-item dropdown megamenu">
-                            <a href="page1.php" class="nav-link">Page 1</a>
+                            <a href="ajax-passgen.php" class="nav-link">PassWord Generator</a>
                             <i class="fa fa-angle-down dropdown-toggle" data-bs-toggle="dropdown" aria-hidden="true"></i>
                         </li>
                         <li class="nav-item dropdown simple-dropdown">
