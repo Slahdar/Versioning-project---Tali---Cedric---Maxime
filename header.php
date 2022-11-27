@@ -43,7 +43,7 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav alt-font">
-                            <li class="nav-item dropdown megamenu">
+                            <li class="nav-item dropdown megamenu" >
                                 <a href="ajax-passgen.php" class="nav-link">PassWord Generator</a>
                                 <i class="fa fa-angle-down dropdown-toggle" data-bs-toggle="dropdown" aria-hidden="true"></i>
                             </li>
