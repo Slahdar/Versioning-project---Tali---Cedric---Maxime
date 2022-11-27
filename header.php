@@ -28,9 +28,8 @@
         <div class="container-fluid nav-header-container">
             <div class="col-auto col-sm-6 col-lg-2 me-auto ps-lg-0">
                 <a class="navbar-brand" href="page1.php">
-                    <img src="/images/images/logo/logo-white.png" data-at2x="images/images/logo/logo-white.png" class="default-logo" alt="">
-                    <img src="/images/images/logo/logo-white.png" data-at2x="images/images/logo/logo-white.png" class="alt-logo" alt="">
-                    <img src="/images/images/logo/logo-white.png" data-at2x="images/images/logo/logo-white.png" class="mobile-logo" alt="">
+                    <img src="images/images/logo/logo-green-dark.png" data-at2x="images/images/logo/logo-green-dark.png" class="default-logo" alt="">
+                    
                 </a>
             </div>
             <div class="col-auto menu-order px-lg-0">
