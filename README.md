@@ -12,10 +12,24 @@
 # Info General
 
 <a name="info"></a>
+
 ## Déploiement de l'application
 L'application est déploiyée sur la plateforme Heroku à l'adresse suivante :
 
 https://versioning-esgi.herokuapp.com/
+
+## Collaborateurs
+
+- Cédric Dousset: @cedricdsst 
+- Maxime Chostak: @slahdar 
+- Tali Touboul: @talitouboul
+
+## Description du projet
+
+- Création d’une page d’accueil 
+- Création d’une page de générateur de mot de passe 
+- Création d’une page avec un carrousel
+- Création d’un README
 
 ## Procédure de développement d'une feature
 
@@ -56,6 +70,11 @@ Le détail du format a respecter est dans [.git-template.txt](.git-commit-templa
 Nous avons choisi d'utiliser Heroku, un service permettant le déploiement d'applications web. 
 
 Grâce à Heroku, nous avons pu déployer notre projet qui contient du PHP sans trop de difficulté, le système choisi de base « http://netlify.com/ » ne permet pas de déployer un projet qui contient du PHP. 
+
+## Trello
+Pour avoir une meilleur visualisation des tâches et de la répartition de celles-ci, nous avons utilisé un trello. 
+Nous avons utilisé Trello directement intégré à GitHub. 
+Trello est l'outil visuel qui permet à notre équipe de gérer notre projet ou de flux de travail, ou encore de suivre les tâches.
 
 # WorkFlow
 
