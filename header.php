@@ -28,7 +28,7 @@
     <nav class="navbar top-space navbar-expand-lg navbar-boxed navbar-dark bg-black header-dark fixed-top header-reverse-scroll">
         <div class="container-fluid nav-header-container">
             <div class="col-auto col-sm-6 col-lg-2 me-auto ps-lg-0">
-                <a class="navbar-brand" href="index.php.php">
+                <a class="navbar-brand" href="index.php">
                     <img src="images/images/logo/logo-green-dark.png" data-at2x="images/images/logo/logo-green-dark.png" class="default-logo" alt="">
                     
                 </a>
