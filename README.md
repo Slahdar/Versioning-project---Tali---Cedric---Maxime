@@ -4,13 +4,18 @@
 
 1. [Info General](#info)
 2. [Technologies](#technologies)
-3. [Installation](#installation)
+3. [WorkFlow](#workflow) 
 4. [Commandes](#commandes)
 5. [FAQs](#faqs)
+
 
 # Info General
 
 <a name="info"></a>
+## Déploiement de l'application
+L'application est déploiyée sur la plateforme Heroku à l'adresse suivante :
+
+https://versioning-esgi.herokuapp.com/
 
 ## Procédure de développement d'une feature
 
@@ -41,18 +46,27 @@ message du commit
 
 En commande : git commit -m "type : TITRE COMMIT" -m "message du commit"
 
-Le détail du format a respecter est dans .git-template.txt
+Le détail du format a respecter est dans [.git-template.txt](.git-commit-template.txt)
 
 # Technologies
 
 <a name="technologies"></a>
 
-# Installation
+## Déploiement HEROKU
+Nous avons choisi d'utiliser Heroku, un service permettant le déploiement d'applications web. 
 
-<a name="installation"></a>
+Grâce à Heroku, nous avons pu déployer notre projet qui contient du PHP sans trop de difficulté, le système choisi de base « http://netlify.com/ » ne permet pas de déployer un projet qui contient du PHP. 
 
+# WorkFlow
+
+<a name="workflow"></a>
+## Feature Branch Workflow 
+Le "Feature Branch Workflow" suppose un Repo principale Main ou l'on retrouve la version actuel ainsi que l'historique du projet. 
+
+Au lieu de développer directement sur la branche master, les développeurs peuvent créer une nouvelle branche chaque fois qu'ils commencent à travailler sur une nouvelle fonctionnalité.
+
+![alt text](images/images/workflow.png)
 # Commandes
-
 <a name="commandes"></a>
 
 - git add \* (ou < filename >)
@@ -97,5 +111,9 @@ Le détail du format a respecter est dans .git-template.txt
 - Syntaxe de version : majeur.mineur.patch (ex 3.2.0)
 
 # FAQs
+
+## Pourquoi le générateur de mot de passe ne fonctionne pas sur Heroku ?
+<br>
+Suite à un conflict entre AJAX et Heroku, le générateur de mot de passe ne fonctionne pas à ce jour, pour tester la Feature vous pouvez télécharger le projet et le lancer sur un serveur local.
 
 <a name="faqs"></a>
