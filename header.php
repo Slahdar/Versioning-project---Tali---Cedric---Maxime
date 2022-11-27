@@ -52,7 +52,7 @@
                                 <i class="fa fa-angle-down dropdown-toggle" data-bs-toggle="dropdown" aria-hidden="true"></i>
                             </li>
                             <li class="nav-item dropdown simple-dropdown">
-                                <a href="NosSolutions.php" class="nav-link">page 3</a>
+                                <a href="NosSolutions.php" class="nav-link">Nos Solutions</a>
                                 <i class="fa fa-angle-down dropdown-toggle" data-bs-toggle="dropdown" aria-hidden="true"></i>
                             </li>
 

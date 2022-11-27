@@ -17,7 +17,7 @@
                      <ul>
                          <li><a href="page1.php">Page 1</a></li>
                          <li><a href="page2.php">Page 2</a></li>
-                         <li><a href="NosSolutions.php">Page 3</a></li>
+                         <li><a href="NosSolutions.php">Nos Solutions</a></li>
                      </ul>
                  </div>
                  <!-- end footer column -->
